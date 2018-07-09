@@ -16,7 +16,7 @@ def prob003():
             else:
                 factor += 2
         factors.append(n)
-    return factors
+    return factors[-1]
 
 
 if __name__ == '__main__':
